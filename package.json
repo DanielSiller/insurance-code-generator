@@ -1,8 +1,8 @@
 {
-  "name": "@danielsiller/generate-registration-number",
-  "version": "1.1.2",
+  "name": "@danielsiller/insurance-code-generator",
+  "version": "1.0.1",
   "main": "lib/index.js",
-  "repository": "https://github.com/DanielSiller/generate-registration-number.git",
+  "repository": "https://github.com/DanielSiller/insurance-code-generator.git",
   "author": "Daniel Siller <danielthebaldi@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -17,5 +17,11 @@
   "peerDependencies": {
     "typescript": "^4.3.5",
     "@types/node": "^16.6.1"
-  }
+  },
+  "keywords": [
+    "gerar código averbação",
+    "insurance code generator",
+    "gerador de código de averbação",
+    "gerar numero de averbação"
+  ]
 }
