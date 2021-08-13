@@ -12,7 +12,7 @@ const number = '23437' // Document number - Ex: CT-e
 const model = '57' // Model - SEFAZ (57-CTe ou 55-NFe ou 99-Others)
 const serie = '889' // Document serie
 const cnpj = '09526131000181' // CNPJ Issuer of the document
-const SUSEP = '00000' // Insurance SUSEP code with the verification digit
+const susep = '00000' // Insurance SUSEP code with the verification digit
 const dateApolice = '1217' // Month/Year of Policy Effectiveness
 
 const code = generateCodInsu({
@@ -21,7 +21,7 @@ const code = generateCodInsu({
   modelDoc: model,
   serieDoc: serie,
   cnpjEmp: cnpj,
-  SUSEPseg: SUSEP,
+  SUSEPseg: susep,
   InsurancePolicy: dateApolice
 })
 
