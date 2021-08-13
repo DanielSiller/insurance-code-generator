@@ -4,20 +4,20 @@ interface Props {
   modelDoc: string;
   serieDoc: string;
   cnpjEmp: string;
-  SUSEPseg: string;
-  InsurancePolicy: string;
+  susepSeg: string;
+  insurancePolicy: string;
 }
 
 
-module.exports = function generateCodInsu({ codEmpAverb, numberDoc, modelDoc, serieDoc, cnpjEmp, SUSEPseg, InsurancePolicy }: Props) {
+module.exports = function generateCodInsu({ codEmpAverb, numberDoc, modelDoc, serieDoc, cnpjEmp, susepSeg, insurancePolicy }: Props) {
   try {
     const codEmp = codEmpAverb.padStart(1, '0')
     const number = numberDoc.padStart(9, '0').split('')
     const model = modelDoc.split('')
     const serie = serieDoc.padStart(3, '0').split('')
     const cnpj = cnpjEmp.padStart(14, '0')
-    const SUSEP = SUSEPseg.padStart(5, '0').split('')
-    const apolice = InsurancePolicy.split('')
+    const SUSEP = susepSeg.padStart(5, '0').split('')
+    const apolice = insurancePolicy.split('')
     var cnpjInvertido = cnpj.split('').reverse()
 
     var numberAverbAux: string[] = []
