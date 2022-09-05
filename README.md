@@ -7,7 +7,7 @@ const generateCodInsu = require('@danielsiller/insurance-code-generator')
 
 // All parameters must be of type String
 
-const codEmp = '8' // Registration Company Code
+const codEmp = '8' // Registration Company Code - (1 - QUORUM ou 2 - AT&M ou 3 - VISTA ou 4 - GUEP ou 5 - ELT ou 6 – Senig 7 – Mutuus ou 8 – SmartLoad)
 const number = '23437' // Document number - Ex: CT-e
 const model = '57' // Model - SEFAZ (57-CTe ou 55-NFe ou 99-Others)
 const serie = '889' // Document serie
